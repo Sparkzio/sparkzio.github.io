@@ -67,7 +67,6 @@ html, body {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -142px;
-  position: relative;
 }
 .main-container:after {
   content: "";
@@ -81,6 +80,8 @@ body {
     font: 1.5em/2em 'Raleway', Helvetica, Helvetica Neue, Arial;
     font-weight: 600;
     background-color: rgba(9,199,157,1);
+    overflow: hidden;
+    overflow-wrap: break-word;
 }
 p{
   -webkit-margin-before: 0.1em;
@@ -95,10 +96,7 @@ p{
 }
 
 #we-are-sparkzio{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+  margin-top: 30%;
   text-align: center;
   color: rgba(6,130,102,1);
 }
