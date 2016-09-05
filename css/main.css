@@ -78,7 +78,7 @@ html, body {
 }
 
 body {
-    font: 2rem/3rem 'Raleway', Helvetica, Helvetica Neue, Arial;
+    font: 1.5em/2em 'Raleway', Helvetica, Helvetica Neue, Arial;
     font-weight: 600;
     background-color: rgba(9,199,157,1);
 }
