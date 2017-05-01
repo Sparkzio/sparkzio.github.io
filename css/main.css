@@ -79,7 +79,7 @@ html, body {
 body {
     font: 1.5em/2em 'Raleway', Helvetica, Helvetica Neue, Arial;
     font-weight: 600;
-    background-color: rgba(9,199,157,1);
+    background-color: #62c89d;
     overflow: hidden;
     overflow-wrap: break-word;
 }
